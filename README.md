@@ -6,6 +6,6 @@ Small project to test Solidity Programing Language, and learn how to compile, te
 
 `npm run compile contracts/{fileName}`
 
-#Tests
+# Tests
 
 `npm run test tests/{fileName}`
