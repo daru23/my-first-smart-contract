@@ -1,0 +1,30 @@
+{
+  "name": "my-first-smart-contract",
+  "version": "0.0.1",
+  "description": "Smart Contract using Solidity",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "eth",
+    "etherium",
+    "solidity",
+    "solc",
+    "web3",
+    "javascript",
+    "mocha"
+  ],
+  "author": "Daniela Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "solc": "^0.8.7-fixed",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.5.2"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.1"
+  }
+}
